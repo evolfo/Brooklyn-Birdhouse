@@ -1,0 +1,11 @@
+#headerP {
+	font-size: 30px;
+	padding: 25px;
+	letter-spacing: 5px;
+	font-family: 'Bebas';
+}
+
+@media only screen and (max-height: 800px)
+	#home-center {
+		margin-top: 170px;
+	}
