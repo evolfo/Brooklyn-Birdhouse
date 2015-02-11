@@ -4,7 +4,11 @@
 	@font-face{
     font-family: "Bebas";
     src: url('css/font/bebasneue.ttf'),
-    url('css/font/bebasneue.otf'); /* IE */
+    url('css/font/bebasneue.otf'); /* IE */ }
+
+    @font-face{
+    font-family: "Lane";
+    src: url('css/font/lanenar.ttf'),
 }
 	
 	html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,img,small,sub,b,dl,dd,dt,ul,li,label,article,details,footer,header,menu,nav,input,textarea,select{	
@@ -30,14 +34,14 @@
 	}
 	
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
-		font-family: 'Bebas', sans-serif;
+		font-weight: 300;
+		font-family: 'Lane', sans-serif;
 		text-transform:uppercase;
 		color:#222222;
 	}	
 	
 	h1 {
-		font-size:36px;
+		font-size:40px;
 		letter-spacing:3px;
 		color:#222222;
 		text-transform:uppercase;
@@ -307,7 +311,7 @@
 	}
 
 	.toggle-title {
-		background: #e5e5e5;
+		background: rgba(229, 216, 199, 0.61);
 		cursor: pointer;
 		padding: 10px;
 		border-radius: 3px;
@@ -315,6 +319,7 @@
 		display: block;
 		font-size:13px;
 	}
+	
 	
 	.toggle-title a {
 		color: #666;
@@ -540,7 +545,7 @@
 	a.newave-button {
 		border-radius:3px;
 		margin-top: 5px;	
-		font-family: 'Bebas', sans-serif;
+		font-family: 'Lane', sans-serif;
 		letter-spacing:3px;
 		text-transform:uppercase;
 		display:inline-block;	
@@ -647,11 +652,21 @@
 		position: relative;
 		width: 100%;
 	}
+
+	#home2 {
+	height: 74%;
+	position: relative;
+	width: 100%;
+	}
 	
 	#home.parallax-slider {
 		height:auto;
 	}
 	
+	#home2.parallax-slider {
+		height:auto;
+	}
+
 	#we-are-good-at {
 		background-color:#FFF;
 	}
@@ -660,6 +675,10 @@
 		background-color:#FFF;
 	}
 	
+
+
+	}
+
 	#we-love-technology {
 		background-color:#FFF;
 	}

@@ -9,3 +9,56 @@
 	#home-center {
 		margin-top: 170px;
 	}
+
+.repertoireP {
+	color: rgba(115, 90, 58, 0.85);
+	margin-bottom: 20px;
+	margin-top: -16px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 496px;
+}
+
+.section-title2 {
+		margin-top: px !important;
+		text-align:center;
+		width: 700px;
+		margin: 0 auto;
+		margin-bottom:55px;
+	}
+
+.toggle-title2 a {
+	color: rgba(115, 90, 58, 0.85);
+}
+
+.toggle-title2 {
+		background: rgba(229, 216, 199, 0.61);
+		cursor: pointer;
+		padding: 10px;
+		border-radius: 3px;
+		margin-bottom: 5px;
+		display: block;
+		font-size:13px;
+	}
+
+.toggle-title2 a {
+		color: #666;
+		text-decoration: none;
+	}
+
+.toggle-title2 a:hover {
+		color:#222222;
+	}
+
+.toggle2-active {
+		color:#fff;
+		background: #222222;
+	}
+	
+	.toggle2-active a {
+		color:#FFF;
+	}
+	
+	.toggle2-active a:hover {
+		color:#FFF;
+	}
