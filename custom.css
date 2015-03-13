@@ -5,6 +5,7 @@
 	font-family: 'Bebas';
 }
 
+
 @media only screen and (max-height: 800px)
 	#home-center {
 		margin-top: 170px;
@@ -22,7 +23,6 @@
 .section-title2 {
 		margin-top: px !important;
 		text-align:center;
-		width: 700px;
 		margin: 0 auto;
 		margin-bottom:55px;
 	}
@@ -62,3 +62,15 @@
 	.toggle2-active a:hover {
 		color:#FFF;
 	}
+
+.one_third h3 {text-align: center; font-size: 29px; letter-spacing: 0px; margin-top: -21px; margin-bottom: 9px;}
+
+#downCaret {
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.footer2 {background-color: transparent; padding: 0;}
+blockquote p {opacity: 1 !important;}
+blockquote footer {color: #fff; opacity: 1 !important;}
