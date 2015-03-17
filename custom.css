@@ -74,3 +74,26 @@
 .footer2 {background-color: transparent; padding: 0;}
 blockquote p {opacity: 1 !important;}
 blockquote footer {color: #fff; opacity: 1 !important;}
+
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+ background: url('images/mobilebkgrnd.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+@media screen and (max-width: 500px) { 
+  h2 {font-size: 14px; letter-spacing: 1px !important; line-height: 20px;}
+  blockquote p {font-size: 14px !important;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(//images/mobilebkgrnd.png) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
