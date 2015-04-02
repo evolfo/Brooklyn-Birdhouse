@@ -48,15 +48,16 @@
 
 .cbp-qtrotator blockquote {
 	margin: 0;
+	margin-bottom: ;
 	padding: 0;
 }
 
 .cbp-qtrotator blockquote p {
-	font-size: 2em;
+	font-size: 1.6em;
 	color: #fff;
 	font-weight: 300;
 	margin: 0.4em 0 1em;
-	line-height: 47px;
+	line-height: 36px;
 }
 
 .cbp-qtrotator blockquote footer {

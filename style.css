@@ -2636,10 +2636,11 @@
 		background-position: left 8px;
 		background-repeat: no-repeat;
 		font-family: Georgia,"Times New Roman",Times,serif;
-		font-size: 22px;
+		font-size: 15px;
 		font-style: italic;
 		line-height: 30px;
 		padding-left: 35px;
+		margin-bottom:;
 	}
 	
 	.blog_comments {

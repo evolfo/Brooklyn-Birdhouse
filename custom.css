@@ -80,8 +80,8 @@ video {
   position: fixed;
   right: 0;
   min-height: 100%;
+  min-width: 100%;
   z-index: -100;
- background: url('images/mobilebkgrnd.png') no-repeat;
   transition: 1s opacity;
 }
 
