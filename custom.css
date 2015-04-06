@@ -93,3 +93,7 @@ video {
   html { background: url(//images/mobilebkgrnd.png) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
+
+.wedding {
+	display: inline !important;
+}
