@@ -77,7 +77,7 @@ blockquote p {opacity: 1 !important;}
 blockquote footer {color: #fff; opacity: 1 !important;}
 
 video { 
-  position: fixed;
+  position: relative;
   right: 0;
   min-height: 100%;
   min-width: 100%;
@@ -112,3 +112,4 @@ video {
 .wedding {
 	display: inline !important;
 }
+#navigation {position: relative;}
